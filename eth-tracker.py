@@ -7,7 +7,7 @@ from datetime import datetime
 headers = {'Accepts': 'application/json', 'X-CMC_PRO_API_KEY': 'fc1f90b5-782c-4f3e-b3fd-f4831190fe00',}
 ETH_API_URL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 IFTTT_WEBHOOK = "https://maker.ifttt.com/trigger/ethprice/with/key/m78XbHthdIy-PhG8D-DUb1lgKvx3VPwcj9FVdlvU86F"
-ETH_PRICE_TRESHOLD = 2100
+ETH_PRICE_TRESHOLD = 2200
 
 def check_price():
     response = requests.get(ETH_API_URL, headers=headers)
